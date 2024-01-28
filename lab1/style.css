@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: skyblue;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.contact{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.contact > p:hover{
+    font-size: xx-large;
+    color: blue;
+    cursor: pointer;
+} 
+.contact > a:hover{
+    font-size: xx-large;
+    color: blue;
+    cursor: pointer;
+} 
+.contact > a{
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+}
+
+.main h2{
+    color: green;
+    padding: 5px;
+}
+
+.project_name{
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+}
