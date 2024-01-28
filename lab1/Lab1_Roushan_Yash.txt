@@ -1,0 +1,54 @@
+# Lab 1
+
+* *Date Created*: 20 01 2024
+* *Last Modification Date*: 24 01 2024
+* *Lab URL*: https://web.cs.dal.ca/~roushan/csci3172/lab1/
+* *Git URL*: https://git.cs.dal.ca/roushan/csci3172
+
+## Authors
+* [Yash Roushan](yashroushan@dal.ca) - *(student)*
+
+## Getting Started.
+
+### Prerequisites
+
+To have a local copy of this lab / assingnment / project up and running on your local machine, you will first need to install the following software / libraries / plug-ins
+
+```
+The required softwares to complete this lab are Filezilla, vs code/intellij , putty for using timberlea/terminal.
+
+```
+
+See the following section for detailed step-by-step instructions on how to install this software / libraries / plug-ins
+
+### Installing
+
+1) This is the readme file for lab1 submission.
+As directed in the instructions this txt file contains all the necessary documentations for Lab1. All the HTML and css styling were learnt by me during the course csci1170. I have made a demo of my resume in the webpage 
+
+## Running the tests
+
+testinng can be done via visiting the website :- https://web.cs.dal.ca/~roushan/csci3172/lab1/
+also for verifying the work you can visit :- https://validator.w3.org/
+
+### Break down into end to end tests
+By clicking on the above link(https://web.cs.dal.ca/~roushan/csci3172/lab1/) if you are eligible to see the portfolio website and part of my resume in text then the work submitted is up to date.
+
+### And coding style tests
+
+
+## Deployment
+
+https://git.cs.dal.ca/roushan/csci3172
+
+## Sources Used
+
+1) Apart from that, I have used different websites for sake of learning. Also some code snippets has been used for completing the assignment.
+There is no link to my work that is being taken from CSCI1170.
+
+
+### File Name
+
+lab 1
+
+
