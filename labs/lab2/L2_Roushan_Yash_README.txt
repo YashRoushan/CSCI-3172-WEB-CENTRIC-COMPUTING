@@ -3,7 +3,7 @@
 * *Date Created*: 31 01 2024
 * *Last Modification Date*: 02 02 2024
 * *Lab URL*: https://web.cs.dal.ca/~roushan/csci3172/lab2/
-* *Git URL*: https://git.cs.dal.ca/roushan/csci3172
+* *Git URL*: https://git.cs.dal.ca/roushan/csci3172  (inside the labs folder)
 
 ## Authors
 * [Yash Roushan](yashroushan@dal.ca) - *(student)*
