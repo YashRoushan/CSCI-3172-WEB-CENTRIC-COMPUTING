@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    This is the simple form. Created for the purpose of Lab 3 submission for csci3172.
+    <br><br><br>
+    <form id="myForm" action="#">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <div class="gender-box">
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="nonbinary" name="gender" value="nonbinary">
+            <label for="nonbinary">Non-binary</label>
+        </div>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country...</option>
+            <option value="India">India</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="Brazil">Brazil</option>
+            <option value="China">China</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="output"></div>
+    <script>
+        document.getElementById('myForm').onsubmit = function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(this);
+            var output = '';
+
+            for (var pair of formData.entries()) {
+                output += pair[0] + ': ' + pair[1] + '<br>';
+            }
+            document.getElementById('output').innerHTML = output;
+        };
+    </script>
+</body>
+<!--
+1) On performing the any action it will not do any action. 
+For example, In clicking a link that redirects the user to other page will be prevented by preventDefault() function. 
+
+2) On line 56 we need to change "=" opeator to "+=". 
+ document.getElementById('output').innerHTML += output;
+  -->
+
+</html>
