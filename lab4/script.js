@@ -1,6 +1,7 @@
 let container1 = document.getElementById('container1');
 // console.log(container1);
 
+// function to change the color of the div
 function changeColour(event) {
     const selectedDay = event.target.value;
     let color = "aliceblue";
@@ -34,6 +35,7 @@ function changeColour(event) {
     console.log(color);
 }
 
+// calling the changeColour function, every time the color changes
 document.getElementById('daySelect').addEventListener('change', changeColour);
 
 //
@@ -104,6 +106,9 @@ function analyzeNumber(number) {
 // this function checks if the number is prime or composite
 function checkPrime(number) {
 
+    if (number < 0) {
+        number = number * -1;
+    }
     // if the number is 1 or 2, return true
     if (number == 1 || number == 2) {
         return true;
