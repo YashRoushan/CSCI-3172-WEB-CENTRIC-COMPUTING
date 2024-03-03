@@ -1,0 +1,52 @@
+#numberForm{
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px;
+}
+
+#numberInput{
+    width: 50vw;
+    margin-bottom: 20px;
+}
+
+.submitBtn{
+    background-color: orange;
+    border: 2px solid orange;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+}
+.submitBtn:hover{
+    background-color: rgb(138, 222, 12);
+    border: 2px solid rgb(138, 222, 12);
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.result{
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    text-align: center;
+}
+.forLoop{
+    background-color: orangered;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.forEach{
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.map{
+    background-color: greenyellow;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
