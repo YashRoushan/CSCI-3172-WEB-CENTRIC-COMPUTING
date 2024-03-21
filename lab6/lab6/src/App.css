@@ -1,0 +1,106 @@
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .links  > a{
+    padding: .5vh 0vh;
+  }
+}
+
+.count{
+  color: greenyellow;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.counterButton{
+  background-color: lightgreen;
+  font-size: large;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 15px;
+}
+
+.counterButton:hover{
+  background-color: gold;
+  font-size: larger;
+  padding: 7px 25px;
+}
+
+.game{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+h3{
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+p{
+  padding-left: 3vw;
+}
+.summary{
+  background-color: rgb(255, 248, 240);
+  border-radius: 15px;
+}
+
+.education{
+  background-color: rgb(216, 249, 243);
+  border-radius: 15px;
+}
+
+.Experience{
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+
+.projects{
+  background-color: bisque;
+  border-radius: 15px;
+}
+
+.technicalSkills{
+  background-color: azure;
+  border-radius: 15px;
+}
